@@ -1,0 +1,61 @@
+.header {
+  width: 100vw;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3.75rem;
+  background-color: #339af0;
+  color: #ffffff;
+  position: relative;
+}
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.brandName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  z-index: 10;
+}
+
+.navList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navList li {
+  margin: 0 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  z-index: 10;
+}
+
+.rightCircle {
+  background-color: #f03e3e;
+  width: 40rem;
+  height: 25rem;
+  border-radius: 50%;
+  position: absolute;
+  right: -20rem;
+  top: -12.5rem;
+}
+
+@media screen and (max-width: 1080px) {
+  .rightCircle {
+    width: 100vw;
+    height: 50vh;
+    right: 0;
+    top: -30vh;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  }
+  .header {
+    background: none;
+  }
+}
