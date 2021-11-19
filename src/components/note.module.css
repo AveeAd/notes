@@ -1,0 +1,37 @@
+.note {
+  height: calc(100vh - 6.5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subjects {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.subject {
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: #339af0 solid 2px;
+  border-radius: 3%/20%;
+  overflow: hidden;
+}
+
+.iconContainer {
+  font-size: 3rem;
+  background: #339af0;
+  padding: 0.5rem;
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+}
+
+.subjectName {
+  padding: 0.5rem;
+}

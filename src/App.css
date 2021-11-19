@@ -1,3 +1,12 @@
 .App {
   width: 100vw;
 }
+
+footer {
+  height: 2.5rem;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 3.75rem;
+}

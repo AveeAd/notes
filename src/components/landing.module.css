@@ -1,6 +1,6 @@
 .landing {
   width: 100%;
-  height: calc(100vh - 4rem);
+  height: calc(100vh - 6.5rem);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +9,7 @@
 
 .illustration {
   width: calc(50% - 3.75rem);
-  height: 50vh;
+  height: calc(50vh - 1.25rem);
 }
 
 .image {
@@ -20,7 +20,7 @@
 
 .landingContent {
   width: calc(50% - 3.75rem);
-  height: 50vh;
+  height: calc(50vh - 1.25rem);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -58,10 +58,10 @@
 @media screen and (max-width: 1080px) {
   .illustration {
     width: 100%;
-    height: calc(50vh - 2rem);
+    height: calc(50vh - 3.25rem);
   }
   .landingContent {
     width: 100%;
-    height: calc(50vh - 2rem);
+    height: calc(50vh - 3.25rem);
   }
 }
